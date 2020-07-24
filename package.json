@@ -1,0 +1,10 @@
+{
+    "name": "svg-stripper",
+    "version": "1.0.0",
+    "description": "Remove fills and cruft from SVGs without completely breaking the SVG",
+    "main": "index.js",
+    "repository": "https://github.com/rawnet/svg-stripper",
+    "author": "Lauren Clark @ Rawnet",
+    "license": "ISC",
+    "private": true
+}
