@@ -1,6 +1,6 @@
 # replace default config
 
-# multipass: true
+multipass: true
 # full: true
 
 plugins:
@@ -12,7 +12,7 @@ plugins:
     - removeEditorsNSData: false
     - cleanupAttrs: true
     - inlineStyles: true
-    - minifyStyles: false
+    - minifyStyles: true
     - convertStyleToAttrs: true
     - cleanupIDs: false
     - prefixIds: false
@@ -49,6 +49,7 @@ plugins:
               - 'fill'
               - 'stroke'
               - 'fill-rule'
+              - 'stroke-width'
     - removeAttributesBySelector: false
     - removeElementsByAttr: false
     - addClassesToSVGElement: false
