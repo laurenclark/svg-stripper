@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="15px" viewBox="0 0 18 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>tick</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/tick" transform="translate(-8.000000, -8.000000)" fill="#000000">
-            <path d="M23.5216196,8.86826325 L25.0976411,10.0995862 L15.2510018,22.7022632 L15.2162508,22.7954136 L8.58600183,15.9753186 L10.0246814,14.5860018 L15.1180018,19.8902632 L23.5216196,8.86826325 Z" id="tick"></path>
-        </g>
-    </g>
-</svg>

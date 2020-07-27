@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>empty_star</title>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon/star---empty" transform="translate(-4.000000, -5.000000)" fill="#FFFFFF" fill-rule="nonzero">
-            <path d="M16,5 L19.5267115,12.145898 L27.4126782,13.2917961 L21.7063391,18.854102 L23.053423,26.7082039 L16,23 L8.94657697,26.7082039 L10.2936609,18.854102 L4.5873218,13.2917961 L12.4732885,12.145898 L16,5 Z M18.1985805,13.9739136 L16,9.519 L13.8014195,13.9739136 L8.885,14.688 L12.442622,18.1558622 L11.602,23.051 L16,20.7404485 L20.397,23.051 L19.557378,18.1558622 L23.114,14.688 L18.1985805,13.9739136 Z" id="empty_star"></path>
-        </g>
-    </g>
-</svg>
