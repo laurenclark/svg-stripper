@@ -22,7 +22,7 @@ plugins:
     - cleanupListOfValues: false
     - convertColors: false
     - removeUnknownsAndDefaults: false
-    - removeNonInheritableGroupAttrs: false
+    - removeNonInheritableGroupAttrs: true
     - removeUselessStrokeAndFill: true
     - removeViewBox: false
     - cleanupEnableBackground: false
@@ -31,7 +31,7 @@ plugins:
     - convertShapeToPath: false
     - convertEllipseToCircle: false
     - moveElemsAttrsToGroup: false
-    - moveGroupAttrsToElems: false
+    - moveGroupAttrsToElems: true
     - collapseGroups: true
     - convertPathData: false
     - convertTransform: false
@@ -54,8 +54,8 @@ plugins:
     - removeElementsByAttr: false
     - addClassesToSVGElement: false
     - removeStyleElement: true
-    - removeScriptElement: false
-    - addAttributesToSVGElement: false
+    - removeScriptElement: true
+    - addAttributesToSVGElement: true
     - removeOffCanvasPaths: false
     - reusePaths: false
 
