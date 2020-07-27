@@ -50,6 +50,7 @@ plugins:
               - 'stroke'
               - 'fill-rule'
               - 'stroke-width'
+              - 'id'
     - removeAttributesBySelector: false
     - removeElementsByAttr: false
     - addClassesToSVGElement: false
