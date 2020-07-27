@@ -10,7 +10,9 @@
     "scripts": {
         "start": "svgo ./src/*.svg -o ./dist",
         "custom": "svgo ./src/*.svg -o ./dist --config=config.yml",
-        "clean": "rimraf ./dist/*"
+        "clean-dist": "rimraf ./dist/*",
+        "clean-src": "rimraf ./src/*",
+        "clean-all": "yarn clean-dist && yarn clean-src"
     },
     "dependencies": {
         "rimraf": "^3.0.2",
