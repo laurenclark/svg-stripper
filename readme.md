@@ -9,7 +9,7 @@ Problem: Many SVG cleaners strip SVGs for one unknown use case and can end up br
 
 ### Usage:
 
-Add your `.svg` filest to `.src`
+Add your `.svg` files to `.src`
 
 `yarn start`
 
