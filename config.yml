@@ -4,70 +4,60 @@
 # full: true
 
 plugins:
-    # - name
-    #
-    # or:
-    # - name: false
-    # - name: true
-    #
-    # or:
-    # - name:
-    #     param1: 1
-    #     param2: 2
-
     - removeDoctype: false
     - removeXMLProcInst: false
     - removeComments: false
     - removeMetadata: false
     - removeXMLNS: false
     - removeEditorsNSData: false
-    - cleanupAttrs: false
-    - inlineStyles: false
+    - cleanupAttrs: true
+    - inlineStyles: true
     - minifyStyles: false
-    - convertStyleToAttrs: false
+    - convertStyleToAttrs: true
     - cleanupIDs: false
     - prefixIds: false
     - removeRasterImages: false
-    - removeUselessDefs: false
+    - removeUselessDefs: true
     - cleanupNumericValues: false
     - cleanupListOfValues: false
     - convertColors: false
     - removeUnknownsAndDefaults: false
     - removeNonInheritableGroupAttrs: false
-    - removeUselessStrokeAndFill: false
+    - removeUselessStrokeAndFill: true
     - removeViewBox: false
-    - cleanupEnableBackgroun: false
+    - cleanupEnableBackground: false
     - removeHiddenElems: false
     - removeEmptyText: false
     - convertShapeToPath: false
     - convertEllipseToCircle: false
     - moveElemsAttrsToGroup: false
     - moveGroupAttrsToElems: false
-    - collapseGroups: false
+    - collapseGroups: true
     - convertPathData: false
     - convertTransform: false
-    - removeEmptyAttrs: false
-    - removeEmptyContainers: false
+    - removeEmptyAttrs: true
+    - removeEmptyContainers: true
     - mergePaths: false
     - removeUnusedNS: false
-    - sortAttrs: false
+    - sortAttrs: true
     - sortDefsChildren: false
     - removeTitle: false
     - removeDesc: false
     - removeDimensions: false
-    - removeAttrs: false
+    - removeAttrs:
+          attrs:
+              - 'fill'
+              - 'stroke'
+              - 'fill-rule'
     - removeAttributesBySelector: false
     - removeElementsByAttr: false
     - addClassesToSVGElement: false
-    - removeStyleElement: false
+    - removeStyleElement: true
     - removeScriptElement: false
     - addAttributesToSVGElement: false
     - removeOffCanvasPaths: false
     - reusePaths: false
-# configure the indent (default 4 spaces) used by `--pretty` here:
-#
-# @see https://github.com/svg/svgo/blob/master/lib/svgo/js2svg.js#L6 for more config options
-#
-# js2svg:
-#  pretty: true
-#  indent: '  '
+
+js2svg:
+    pretty: true
+    indent: '    '

@@ -8,6 +8,8 @@
     "license": "ISC",
     "private": true,
     "scripts": {
+        "start": "svgo ./src/*.svg -o ./dist",
+        "custom": "svgo ./src/*.svg -o ./dist --config=config.yml",
         "clean": "rimraf ./dist/*"
     },
     "dependencies": {
